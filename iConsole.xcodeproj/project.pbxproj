@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33235C011C08860E00372D64 /* MobileDevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33235C001C08860E00372D64 /* MobileDevice.framework */; };
+		333128941C046BA900AF0C23 /* NIFBottomHairlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 333128931C046BA900AF0C23 /* NIFBottomHairlineView.m */; };
+		334C92AA1C02E37400FCA434 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 334C92A91C02E37400FCA434 /* AppDelegate.m */; };
+		334C92AD1C02E37400FCA434 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 334C92AC1C02E37400FCA434 /* main.m */; };
+		334C92B01C02E37400FCA434 /* NIFConsoleSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 334C92AF1C02E37400FCA434 /* NIFConsoleSplitViewController.m */; };
+		334C92B51C02E37400FCA434 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334C92B31C02E37400FCA434 /* Main.storyboard */; };
+		334C92BE1C02E6F600FCA434 /* NIFDeviceConsoleOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 334C92BD1C02E6F600FCA434 /* NIFDeviceConsoleOutputStream.m */; };
+		336FF3C21C0D9B7900D0E978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 336FF3C11C0D9B7900D0E978 /* Assets.xcassets */; };
+		336FF3C51C0DB22300D0E978 /* NIFSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 336FF3C41C0DB22300D0E978 /* NIFSplitView.m */; };
+		336FF3C81C0DBE6300D0E978 /* NIFFixedStateToolbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 336FF3C71C0DBE6300D0E978 /* NIFFixedStateToolbarItem.m */; };
+		3397660B1C03E7FE00128B40 /* NS(Attributed)String+Geometrics.m in Sources */ = {isa = PBXBuildFile; fileRef = 3397660A1C03E7FE00128B40 /* NS(Attributed)String+Geometrics.m */; };
+		339766131C0426E500128B40 /* NIFReadOnlyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 339766121C0426E500128B40 /* NIFReadOnlyTextField.m */; };
+		339B91C31C0BE48400ECA879 /* NIFSyslogRelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B91C21C0BE48400ECA879 /* NIFSyslogRelay.m */; };
+		339B91C61C0BE73800ECA879 /* NIFSyslogOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B91C51C0BE73800ECA879 /* NIFSyslogOutput.m */; };
+		339B91CA1C0C4E7E00ECA879 /* NIFDeviceTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B91C91C0C4E7E00ECA879 /* NIFDeviceTableCellView.m */; };
+		33A96EF11C0FCCA5005C6ECA /* NIFFilteredDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A96EF01C0FCCA5005C6ECA /* NIFFilteredDataSource.m */; };
+		33D9C7031C11552E00105D87 /* NIFConsoleWindowControllerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D9C7021C11552E00105D87 /* NIFConsoleWindowControllerModel.m */; };
+		33D9C7061C11554B00105D87 /* NIFOptionsPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D9C7051C11554B00105D87 /* NIFOptionsPopoverViewController.m */; };
+		33E220B91C18F1C4009C114F /* NIFConsoleSettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E220B81C18F1C4009C114F /* NIFConsoleSettingsManager.m */; };
+		33E220BC1C1923EA009C114F /* NIFConsoleLogCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E220BB1C1923EA009C114F /* NIFConsoleLogCellView.m */; };
+		33ECF2631C03570000BD0ACD /* NIFConsoleWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33ECF2621C03570000BD0ACD /* NIFConsoleWindowController.m */; };
+		33F130501C12CB8A00F8DCEF /* MobileDeviceAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F1304F1C12CB8A00F8DCEF /* MobileDeviceAccess.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		33F130531C12F01C00F8DCEF /* NIFDeviceOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F130521C12F01C00F8DCEF /* NIFDeviceOutlineView.m */; };
+		33F130561C12F56400F8DCEF /* NIFDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F130551C12F56400F8DCEF /* NIFDevice.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33235BFF1C0885CA00372D64 /* MobileDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileDevice.h; sourceTree = "<group>"; };
+		33235C001C08860E00372D64 /* MobileDevice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileDevice.framework; path = System/Library/PrivateFrameworks/MobileDevice.framework; sourceTree = SDKROOT; };
+		333128921C046BA900AF0C23 /* NIFBottomHairlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIFBottomHairlineView.h; sourceTree = "<group>"; };
+		333128931C046BA900AF0C23 /* NIFBottomHairlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIFBottomHairlineView.m; sourceTree = "<group>"; };
+		334C92A51C02E37400FCA434 /* iConsole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iConsole.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		334C92A81C02E37400FCA434 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		334C92A91C02E37400FCA434 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		334C92AC1C02E37400FCA434 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		334C92AE1C02E37400FCA434 /* NIFConsoleSplitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIFConsoleSplitViewController.h; sourceTree = "<group>"; };
+		334C92AF1C02E37400FCA434 /* NIFConsoleSplitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIFConsoleSplitViewController.m; sourceTree = "<group>"; };
+		334C92B41C02E37400FCA434 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		334C92B61C02E37400FCA434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		334C92BC1C02E6F600FCA434 /* NIFDeviceConsoleOutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIFDeviceConsoleOutputStream.h; sourceTree = "<group>"; };
+		334C92BD1C02E6F600FCA434 /* NIFDeviceConsoleOutputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIFDeviceConsoleOutputStream.m; sourceTree = "<group>"; };
+		336FF3C11C0D9B7900D0E978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		336FF3C31C0DB22300D0E978 /* NIFSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIFSplitView.h; sourceTree = "<group>"; };
+		336FF3C41C0DB22300D0E978 /* NIFSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIFSplitView.m; sourceTree = "<group>"; };
+		336FF3C61C0DBE6300D0E978 /* NIFFixedStateToolbarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIFFixedStateToolbarItem.h; sourceTree = "<group>"; };
+		336FF3C71C0DBE6300D0E978 /* NIFFixedStateToolbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIFFixedStateToolbarItem.m; sourceTree = "<group>"; };
+		339766091C03E7FE00128B40 /* NS(Attributed)String+Geometrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NS(Attributed)String+Geometrics.h"; sourceTree = "<group>"; };
+		3397660A1C03E7FE00128B40 /* NS(Attributed)String+Geometrics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NS(Attributed)String+Geometrics.m"; sourceTree = "<group>"; };
+		339766111C0426E500128B40 /* NIFReadOnlyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIFReadOnlyTextField.h; sourceTree = "<group>"; };
+		339766121C0426E500128B40 /* NIFReadOnlyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIFReadOnlyTextField.m; sourceTree = "<group>"; };
+		339B91C11C0BE48400ECA879 /* NIFSyslogRelay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIFSyslogRelay.h; sourceTree = "<group>"; };
+		339B91C21C0BE48400ECA879 /* NIFSyslogRelay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIFSyslogRelay.m; sourceTree = "<group>"; };
+		339B91C41C0BE73800ECA879 /* NIFSyslogOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIFSyslogOutput.h; sourceTree = "<group>"; };
+		339B91C51C0BE73800ECA879 /* NIFSyslogOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIFSyslogOutput.m; sourceTree = "<group>"; };
+		339B91C81C0C4E7E00ECA879 /* NIFDeviceTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIFDeviceTableCellView.h; sourceTree = "<group>"; };
+		339B91C91C0C4E7E00ECA879 /* NIFDeviceTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIFDeviceTableCellView.m; sourceTree = "<group>"; };
+		33A96EEF1C0FCCA5005C6ECA /* NIFFilteredDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIFFilteredDataSource.h; sourceTree = "<group>"; };
+		33A96EF01C0FCCA5005C6ECA /* NIFFilteredDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIFFilteredDataSource.m; sourceTree = "<group>"; };
+		33D9C7011C11552E00105D87 /* NIFConsoleWindowControllerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIFConsoleWindowControllerModel.h; path = Models/NIFConsoleWindowControllerModel.h; sourceTree = "<group>"; };
+		33D9C7021C11552E00105D87 /* NIFConsoleWindowControllerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIFConsoleWindowControllerModel.m; path = Models/NIFConsoleWindowControllerModel.m; sourceTree = "<group>"; };
+		33D9C7041C11554B00105D87 /* NIFOptionsPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIFOptionsPopoverViewController.h; sourceTree = "<group>"; };
+		33D9C7051C11554B00105D87 /* NIFOptionsPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIFOptionsPopoverViewController.m; sourceTree = "<group>"; };
+		33E220B71C18F1C4009C114F /* NIFConsoleSettingsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIFConsoleSettingsManager.h; sourceTree = "<group>"; };
+		33E220B81C18F1C4009C114F /* NIFConsoleSettingsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIFConsoleSettingsManager.m; sourceTree = "<group>"; };
+		33E220BA1C1923EA009C114F /* NIFConsoleLogCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIFConsoleLogCellView.h; sourceTree = "<group>"; };
+		33E220BB1C1923EA009C114F /* NIFConsoleLogCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIFConsoleLogCellView.m; sourceTree = "<group>"; };
+		33ECF2611C03570000BD0ACD /* NIFConsoleWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIFConsoleWindowController.h; sourceTree = "<group>"; };
+		33ECF2621C03570000BD0ACD /* NIFConsoleWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIFConsoleWindowController.m; sourceTree = "<group>"; };
+		33F1304E1C12CB8A00F8DCEF /* MobileDeviceAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileDeviceAccess.h; sourceTree = "<group>"; };
+		33F1304F1C12CB8A00F8DCEF /* MobileDeviceAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileDeviceAccess.m; sourceTree = "<group>"; };
+		33F130511C12F01C00F8DCEF /* NIFDeviceOutlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIFDeviceOutlineView.h; sourceTree = "<group>"; };
+		33F130521C12F01C00F8DCEF /* NIFDeviceOutlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIFDeviceOutlineView.m; sourceTree = "<group>"; };
+		33F130541C12F56400F8DCEF /* NIFDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIFDevice.h; sourceTree = "<group>"; };
+		33F130551C12F56400F8DCEF /* NIFDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIFDevice.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		334C92A21C02E37400FCA434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33235C011C08860E00372D64 /* MobileDevice.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		068FC7048DE105CC409EE993 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33235C001C08860E00372D64 /* MobileDevice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		334C929C1C02E37400FCA434 = {
+			isa = PBXGroup;
+			children = (
+				33235BFF1C0885CA00372D64 /* MobileDevice.h */,
+				334C92A71C02E37400FCA434 /* iDevice Console */,
+				334C92A61C02E37400FCA434 /* Products */,
+				068FC7048DE105CC409EE993 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		334C92A61C02E37400FCA434 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				334C92A51C02E37400FCA434 /* iConsole.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		334C92A71C02E37400FCA434 /* iDevice Console */ = {
+			isa = PBXGroup;
+			children = (
+				334C92A81C02E37400FCA434 /* AppDelegate.h */,
+				334C92A91C02E37400FCA434 /* AppDelegate.m */,
+				33D9C6FF1C11543500105D87 /* View Controllers */,
+				33D9C7001C11543C00105D87 /* Models */,
+				339766141C0426E900128B40 /* Subclasses */,
+				339766101C0422EC00128B40 /* Backend */,
+				3397660F1C0422D500128B40 /* Categories */,
+				339B91C71C0C4E5800ECA879 /* Cells */,
+				334C92B31C02E37400FCA434 /* Main.storyboard */,
+				336FF3C11C0D9B7900D0E978 /* Assets.xcassets */,
+				334C92B61C02E37400FCA434 /* Info.plist */,
+				334C92AB1C02E37400FCA434 /* Supporting Files */,
+			);
+			path = "iDevice Console";
+			sourceTree = "<group>";
+		};
+		334C92AB1C02E37400FCA434 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				334C92AC1C02E37400FCA434 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3397660F1C0422D500128B40 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				339766091C03E7FE00128B40 /* NS(Attributed)String+Geometrics.h */,
+				3397660A1C03E7FE00128B40 /* NS(Attributed)String+Geometrics.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		339766101C0422EC00128B40 /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				334C92BC1C02E6F600FCA434 /* NIFDeviceConsoleOutputStream.h */,
+				334C92BD1C02E6F600FCA434 /* NIFDeviceConsoleOutputStream.m */,
+				339B91C11C0BE48400ECA879 /* NIFSyslogRelay.h */,
+				339B91C21C0BE48400ECA879 /* NIFSyslogRelay.m */,
+				339B91C41C0BE73800ECA879 /* NIFSyslogOutput.h */,
+				339B91C51C0BE73800ECA879 /* NIFSyslogOutput.m */,
+				33A96EEF1C0FCCA5005C6ECA /* NIFFilteredDataSource.h */,
+				33A96EF01C0FCCA5005C6ECA /* NIFFilteredDataSource.m */,
+				33F1304E1C12CB8A00F8DCEF /* MobileDeviceAccess.h */,
+				33F1304F1C12CB8A00F8DCEF /* MobileDeviceAccess.m */,
+				33F130541C12F56400F8DCEF /* NIFDevice.h */,
+				33F130551C12F56400F8DCEF /* NIFDevice.m */,
+				33E220B71C18F1C4009C114F /* NIFConsoleSettingsManager.h */,
+				33E220B81C18F1C4009C114F /* NIFConsoleSettingsManager.m */,
+			);
+			path = Backend;
+			sourceTree = "<group>";
+		};
+		339766141C0426E900128B40 /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				339766111C0426E500128B40 /* NIFReadOnlyTextField.h */,
+				339766121C0426E500128B40 /* NIFReadOnlyTextField.m */,
+				333128921C046BA900AF0C23 /* NIFBottomHairlineView.h */,
+				333128931C046BA900AF0C23 /* NIFBottomHairlineView.m */,
+				336FF3C31C0DB22300D0E978 /* NIFSplitView.h */,
+				336FF3C41C0DB22300D0E978 /* NIFSplitView.m */,
+				336FF3C61C0DBE6300D0E978 /* NIFFixedStateToolbarItem.h */,
+				336FF3C71C0DBE6300D0E978 /* NIFFixedStateToolbarItem.m */,
+				33F130511C12F01C00F8DCEF /* NIFDeviceOutlineView.h */,
+				33F130521C12F01C00F8DCEF /* NIFDeviceOutlineView.m */,
+			);
+			path = Subclasses;
+			sourceTree = "<group>";
+		};
+		339B91C71C0C4E5800ECA879 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				339B91C81C0C4E7E00ECA879 /* NIFDeviceTableCellView.h */,
+				339B91C91C0C4E7E00ECA879 /* NIFDeviceTableCellView.m */,
+				33E220BA1C1923EA009C114F /* NIFConsoleLogCellView.h */,
+				33E220BB1C1923EA009C114F /* NIFConsoleLogCellView.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		33D9C6FF1C11543500105D87 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				33ECF2611C03570000BD0ACD /* NIFConsoleWindowController.h */,
+				33ECF2621C03570000BD0ACD /* NIFConsoleWindowController.m */,
+				334C92AE1C02E37400FCA434 /* NIFConsoleSplitViewController.h */,
+				334C92AF1C02E37400FCA434 /* NIFConsoleSplitViewController.m */,
+				33D9C7041C11554B00105D87 /* NIFOptionsPopoverViewController.h */,
+				33D9C7051C11554B00105D87 /* NIFOptionsPopoverViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		33D9C7001C11543C00105D87 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				33D9C7011C11552E00105D87 /* NIFConsoleWindowControllerModel.h */,
+				33D9C7021C11552E00105D87 /* NIFConsoleWindowControllerModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		334C92A41C02E37400FCA434 /* iConsole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 334C92B91C02E37400FCA434 /* Build configuration list for PBXNativeTarget "iConsole" */;
+			buildPhases = (
+				334C92A11C02E37400FCA434 /* Sources */,
+				334C92A21C02E37400FCA434 /* Frameworks */,
+				334C92A31C02E37400FCA434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iConsole;
+			productName = "iDevice Console";
+			productReference = 334C92A51C02E37400FCA434 /* iConsole.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		334C929D1C02E37400FCA434 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = terrylewis;
+				TargetAttributes = {
+					334C92A41C02E37400FCA434 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = WVW2QXS9H2;
+					};
+				};
+			};
+			buildConfigurationList = 334C92A01C02E37400FCA434 /* Build configuration list for PBXProject "iConsole" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 334C929C1C02E37400FCA434;
+			productRefGroup = 334C92A61C02E37400FCA434 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				334C92A41C02E37400FCA434 /* iConsole */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		334C92A31C02E37400FCA434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336FF3C21C0D9B7900D0E978 /* Assets.xcassets in Resources */,
+				334C92B51C02E37400FCA434 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		334C92A11C02E37400FCA434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D9C7061C11554B00105D87 /* NIFOptionsPopoverViewController.m in Sources */,
+				33ECF2631C03570000BD0ACD /* NIFConsoleWindowController.m in Sources */,
+				339B91C61C0BE73800ECA879 /* NIFSyslogOutput.m in Sources */,
+				334C92B01C02E37400FCA434 /* NIFConsoleSplitViewController.m in Sources */,
+				33A96EF11C0FCCA5005C6ECA /* NIFFilteredDataSource.m in Sources */,
+				336FF3C81C0DBE6300D0E978 /* NIFFixedStateToolbarItem.m in Sources */,
+				33F130531C12F01C00F8DCEF /* NIFDeviceOutlineView.m in Sources */,
+				33F130561C12F56400F8DCEF /* NIFDevice.m in Sources */,
+				334C92AD1C02E37400FCA434 /* main.m in Sources */,
+				336FF3C51C0DB22300D0E978 /* NIFSplitView.m in Sources */,
+				334C92BE1C02E6F600FCA434 /* NIFDeviceConsoleOutputStream.m in Sources */,
+				3397660B1C03E7FE00128B40 /* NS(Attributed)String+Geometrics.m in Sources */,
+				339B91C31C0BE48400ECA879 /* NIFSyslogRelay.m in Sources */,
+				339766131C0426E500128B40 /* NIFReadOnlyTextField.m in Sources */,
+				33E220BC1C1923EA009C114F /* NIFConsoleLogCellView.m in Sources */,
+				33E220B91C18F1C4009C114F /* NIFConsoleSettingsManager.m in Sources */,
+				33D9C7031C11552E00105D87 /* NIFConsoleWindowControllerModel.m in Sources */,
+				33F130501C12CB8A00F8DCEF /* MobileDeviceAccess.m in Sources */,
+				333128941C046BA900AF0C23 /* NIFBottomHairlineView.m in Sources */,
+				334C92AA1C02E37400FCA434 /* AppDelegate.m in Sources */,
+				339B91CA1C0C4E7E00ECA879 /* NIFDeviceTableCellView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		334C92B31C02E37400FCA434 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				334C92B41C02E37400FCA434 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		334C92B71C02E37400FCA434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = /Users/terrylewis/Documents/Development/Frameworks/;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		334C92B81C02E37400FCA434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = /Users/terrylewis/Documents/Development/Frameworks/;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		334C92BA1C02E37400FCA434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WVW2QXS9H2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+					"$(PROJECT_DIR)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/path/include";
+				INFOPLIST_FILE = "iDevice Console/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/path/lib";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.gitlab.terrylewis.iDevice-Console";
+				PRODUCT_NAME = iConsole;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		334C92BB1C02E37400FCA434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WVW2QXS9H2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+					"$(PROJECT_DIR)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/path/include";
+				INFOPLIST_FILE = "iDevice Console/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/path/lib";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.gitlab.terrylewis.iDevice-Console";
+				PRODUCT_NAME = iConsole;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		334C92A01C02E37400FCA434 /* Build configuration list for PBXProject "iConsole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334C92B71C02E37400FCA434 /* Debug */,
+				334C92B81C02E37400FCA434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		334C92B91C02E37400FCA434 /* Build configuration list for PBXNativeTarget "iConsole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334C92BA1C02E37400FCA434 /* Debug */,
+				334C92BB1C02E37400FCA434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 334C929D1C02E37400FCA434 /* Project object */;
+}
